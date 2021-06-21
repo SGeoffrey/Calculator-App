@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+}
+
+.calc {
+    height:50%;
+    width: 33%;
+
+}
+
+.calcbutton:hover{
+background-color: rgb(247, 245, 241);
+cursor: pointer;
+}
+
+
+.row {
+    display:flex;
+
+    align-items: stretch;
+    height: 100px;
+    width: 100%;
+
+}
+
+
+.log{
+    width:98%;
+    background-color: black;
+    text-align: end;
+    font-size: 30px;
+    color: blanchedalmond;
+    margin: 0px;
+
+}
+.opperator{
+    background-color: orange;
+}
+
+.opperator:hover { 
+    background-color: rgb(255, 218, 151);
+    cursor: pointer;
+}
+.quarter {
+    width:24.5%;
+    font-size: 25px;
+}
+
+.half{
+    width:49%;
+    font-size: 25px;
+}
+
+.three-quarter {
+    width: 73.5%;
+    font-size: 25px;
+}     
